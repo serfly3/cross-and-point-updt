@@ -1,0 +1,7 @@
+.h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
