@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    background: rgb(255, 241, 161);
+    animation: background 4s infinite alternate;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow:0 0px 10px 0  rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    color: rgba(0, 0, 255, 0.524);
+    font-size: 2vw;
+    transition: 0.3s;
+}
+
+.home:hover {
+    color: rgb(0, 0, 255);
+}
+
+
+@keyframes background {
+    100% {
+        background: #ffb0b0;
+        background: #ffdeb0;
+        background: #fff7b0;
+        background: #d5ffb0;
+        background: #b0ffdd;
+        background: #b0caff;
+        background: #c9b0ff;
+        background: #ffb0fe;
+    }
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}

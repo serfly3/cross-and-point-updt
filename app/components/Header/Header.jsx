@@ -8,7 +8,7 @@ export const Header = () => {
                 <Link href="/">
                     <img
                         alt="logo"
-                        src="./logo/logo.svg"
+                        src="/logo/logo.svg"
                         style={{ width: 210 }}
                         className={Style['logo_header']}
                     />

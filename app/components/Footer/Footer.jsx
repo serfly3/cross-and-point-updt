@@ -8,7 +8,7 @@ export const Footer = () => {
                 <Link href="/">
                     <img
                         alt="crosss"
-                        src="./logo/logo_footer.svg"
+                        src="/logo/logo_footer.svg"
                         style={{ width: 300 }}
                         className={Style['logo_footer']}
                     />
